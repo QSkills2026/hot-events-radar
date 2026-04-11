@@ -1,0 +1,48 @@
+{
+  "earningsCalendar": [
+    {
+      "date": "2026-04-11",
+      "epsActual": 1.85,
+      "epsEstimate": 1.60,
+      "hour": "amc",
+      "quarter": 1,
+      "revenueActual": 25300000000,
+      "revenueEstimate": 24100000000,
+      "symbol": "TSLA",
+      "year": 2026
+    },
+    {
+      "date": "2026-04-11",
+      "epsActual": 0.95,
+      "epsEstimate": 1.10,
+      "hour": "bmo",
+      "quarter": 1,
+      "revenueActual": 8200000000,
+      "revenueEstimate": 8500000000,
+      "symbol": "F",
+      "year": 2026
+    },
+    {
+      "date": "2026-04-15",
+      "epsActual": null,
+      "epsEstimate": 2.10,
+      "hour": "amc",
+      "quarter": 1,
+      "revenueActual": null,
+      "revenueEstimate": 90000000000,
+      "symbol": "AAPL",
+      "year": 2026
+    },
+    {
+      "date": "2025-11-01",
+      "epsActual": 3.00,
+      "epsEstimate": 2.95,
+      "hour": "amc",
+      "quarter": 3,
+      "revenueActual": 85000000000,
+      "revenueEstimate": 84000000000,
+      "symbol": "MSFT",
+      "year": 2025
+    }
+  ]
+}

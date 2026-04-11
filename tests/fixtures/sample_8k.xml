@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Latest Filings - 8-K</title>
+  <updated>2026-04-11T14:00:00-04:00</updated>
+  <entry>
+    <title>8-K - APPLE INC (AAPL) (Filer) — Item 5.02 Departure of Directors or Certain Officers</title>
+    <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/320193/000032019326000001/0000320193-26-000001-index.htm"/>
+    <summary type="html">Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers.</summary>
+    <updated>2026-04-11T13:45:00-04:00</updated>
+  </entry>
+  <entry>
+    <title>8-K - NVIDIA CORP (NVDA) (Filer) — Item 2.01 Completion of Acquisition or Disposition of Assets</title>
+    <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1045810/000104581026000001/0001045810-26-000001-index.htm"/>
+    <summary type="html">Item 2.01 Completion of Acquisition or Disposition of Assets. NVIDIA completes acquisition of Run:ai Labs for $700M.</summary>
+    <updated>2026-04-11T12:30:00-04:00</updated>
+  </entry>
+  <entry>
+    <title>8-K - TESLA INC (TSLA) (Filer) — Item 2.02 Results of Operations and Financial Condition</title>
+    <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/1318605/000131860526000001/0001318605-26-000001-index.htm"/>
+    <summary type="html">Item 2.02 Results of Operations and Financial Condition. Q1 2026 earnings release.</summary>
+    <updated>2026-04-11T11:00:00-04:00</updated>
+  </entry>
+  <entry>
+    <title>8-K - OLD FILING CORP (OLD) (Filer) — Item 8.01</title>
+    <link rel="alternate" type="text/html" href="https://www.sec.gov/Archives/edgar/data/000/000000-26-000000-index.htm"/>
+    <summary type="html">Item 8.01 Other events.</summary>
+    <updated>2026-04-05T10:00:00-04:00</updated>
+  </entry>
+</feed>

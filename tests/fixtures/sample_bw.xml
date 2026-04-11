@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Business Wire</title>
+    <link>https://www.businesswire.com/</link>
+    <description>Business Wire news feed</description>
+    <item>
+      <title>NVIDIA Corporation (NASDAQ: NVDA) Announces Acquisition of Run:ai Labs for $700 Million</title>
+      <link>https://www.businesswire.com/news/home/20260411005000/en/</link>
+      <description>NVIDIA Corporation (NASDAQ: NVDA) today announced the completion of its acquisition of Run:ai Labs, a leader in GPU orchestration, for $700 million.</description>
+      <pubDate>Sat, 11 Apr 2026 13:30:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Pfizer (NYSE: PFE) Receives FDA Approval for New Oncology Drug</title>
+      <link>https://www.businesswire.com/news/home/20260411005100/en/</link>
+      <description>Pfizer Inc. (NYSE: PFE) today announced FDA approval of its new phase 3 oncology treatment.</description>
+      <pubDate>Sat, 11 Apr 2026 12:45:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Ford Motor Company (NYSE: F) Cuts Full-Year Guidance</title>
+      <link>https://www.businesswire.com/news/home/20260411005200/en/</link>
+      <description>Ford Motor Company (NYSE: F) today lowered its full-year 2026 EPS guidance from $2.00 to $1.70, citing supply chain disruptions.</description>
+      <pubDate>Sat, 11 Apr 2026 11:15:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

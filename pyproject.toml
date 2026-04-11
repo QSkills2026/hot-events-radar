@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "hot-events-radar"
+version = "0.1.0"
+description = "Detect hot financial events from authoritative sources (SEC 8-K, exchange halts, earnings calendar, PR wire) with a pluggable detector/source architecture"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = [
+    "httpx>=0.27",
+]
+
+[project.urls]
+Homepage = "https://github.com/QSkills2026/hot-events-radar"
+Repository = "https://github.com/QSkills2026/hot-events-radar"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
+[tool.setuptools.packages.find]
+include = ["hot_events_radar*"]
