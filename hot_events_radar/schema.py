@@ -100,12 +100,18 @@ class HotEvent:
 
     @classmethod
     def from_dict(cls, data: dict) -> "HotEvent":
-        """Deserialize from JSON dict."""
+        """Deserialize from JSON dict.
+
+        Tolerates missing optional fields: `updated_at` defaults to
+        `started_at`, `summary` defaults to empty, etc.
+        """
+        started_raw = data.get("started_at") or datetime.now(timezone.utc).isoformat()
+        updated_raw = data.get("updated_at") or started_raw
         return cls(
             id=data["id"],
             type=EventType(data["type"]),
             subtype=data.get("subtype"),
-            headline=data["headline"],
+            headline=data.get("headline", ""),
             summary=data.get("summary", ""),
             primary_tickers=list(data.get("primary_tickers", [])),
             related_tickers=list(data.get("related_tickers", [])),
@@ -122,8 +128,8 @@ class HotEvent:
                 )
                 for s in data.get("sources", [])
             ],
-            started_at=datetime.fromisoformat(data["started_at"]),
-            updated_at=datetime.fromisoformat(data["updated_at"]),
+            started_at=datetime.fromisoformat(started_raw),
+            updated_at=datetime.fromisoformat(updated_raw),
         )
 
 
