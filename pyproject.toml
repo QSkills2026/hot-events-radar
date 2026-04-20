@@ -1,10 +1,10 @@
 [build-system]
 requires = ["setuptools>=68", "wheel"]
-build-backend = "setuptools.backends.legacy:build"
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "hot-events-radar"
-version = "0.1.0"
+version = "0.2.0"
 description = "Detect hot financial events from authoritative sources (SEC 8-K, exchange halts, earnings calendar, PR wire) with a pluggable detector/source architecture"
 readme = "README.md"
 license = {text = "MIT"}
